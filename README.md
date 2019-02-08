@@ -9,3 +9,13 @@
 1. I can submit a `form` that includes a `file` upload.
 2. The form file input field has the `"name"` attribute set to `"upfile"`. We rely on this in testing.
 3. When I submit something, I will receive the file name and size in bytes within the JSON response.
+
+- **Hint: ** To handle the file uploading you should use the [multer](https://www.npmjs.com/package/multer) npm package.
+
+## Usage:
+
+- Go to main [page](https://file-metadata-microservice.now.sh/), and upload a file using the provided form.
+
+### Example output:
+
+- {"name": "example.txt", "type": "text/plain", "size": 145}
