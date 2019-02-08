@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.6rem;
+  color: #777;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+h1 {
+  border-top: 1px solid #5ccfb9;
+  box-shadow: 0 2px 0.3rem rgba(0, 0, 0, 0.2);
+  color: #5ccfb9;
+  display: inline-block;
+  position: relative;
+  top: -4.5rem;
+  padding: 1rem;
+  text-transform: uppercase;
+  background: #fff;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-weight: lighter;
+  border-bottom: 2px solid #21b2a6;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+.container {
+  max-width: 80rem;
+  margin: 5rem auto 2rem auto;
+  position: relative;
+  padding: 1.5rem;
+  box-shadow: 0 0.5rem 5rem rgba(0, 0, 0, 0.15);
+  background: #fff;
+  border-top: 1px solid #5ccfb9;
+  border-bottom: 1px solid #5ccfb9;
+  border-radius: 5px;
+}
+
+.user-stories {
+  padding-left: 4rem;
+}
+
+.user-stories li {
+  line-height: 1.45;
+}
+
+.use-title {
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.use-instruct {
+  text-align: center;
+  margin: 1rem;
+}
+
+.form {
+  text-align: center;
+  padding: 1rem;
+  background: #f7f7f7;
+  width: 70%;
+  margin: 0 auto;
+}
+
+input[type='file'] {
+  margin: 1rem auto;
+  padding: 0.5rem;
+  background: #fff;
+  font-size: 1.5rem;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+button {
+  display: block;
+  text-align: center;
+  margin: 1rem auto;
+  color: #fff;
+  background: #20ce93;
+  border: 1px solid #5ccfb9;
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+button:hover {
+  background: #fff;
+  color: #20ce93;
+}
+
+.footer {
+  text-align: center;
+  font-size: 1.4rem;
+  margin-top: 4rem;
+}
+
+a {
+  color: #5ccfb9;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+a:hover {
+  border-bottom: 1px solid #5ccfb9;
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .form {
+    width: 100%;
+  }
+
+  input[type='file'] {
+    width: 100%;
+  }
+}
